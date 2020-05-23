@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<folder>VOC2007</folder>
+	<filename>9_rotate.jpg</filename>
+	<source>
+		<database>My Database</database>
+		<annotation>VOC2007</annotation>
+		<image>flickr</image>
+	</source>
+	<owner>
+		<flickrid>NULL</flickrid>
+		<name>idannel</name>
+	</owner>
+	<size>
+		<width>695</width>
+		<height>884</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>297</xmin>
+			<ymin>383</ymin>
+			<xmax>404</xmax>
+			<ymax>485</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>398</xmin>
+			<ymin>302</ymin>
+			<xmax>501</xmax>
+			<ymax>400</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>478</xmin>
+			<ymin>178</ymin>
+			<xmax>580</xmax>
+			<ymax>266</ymax>
+		</bndbox>
+	</object>
+</annotation>
