@@ -1,0 +1,14 @@
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/1288.jpg 166,439,264,545,0 436,556,588,698,0 1,532,82,634,0 61,652,171,734,0
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/165.jpg 293,63,395,162,0 52,464,145,527,0 39,407,122,468,0 208,520,305,589,0 189,571,268,643,0 572,39,624,104,0
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/190.jpg
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/335.jpg
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/340.jpg 11,43,80,134,0 73,59,127,140,0 112,82,175,166,0 271,480,410,630,0 379,438,501,569,0 410,491,577,662,0
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/375.jpg
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/39.jpg 130,317,215,400,0 510,263,624,382,0 501,378,604,467,0 2,34,72,126,0 1,395,73,467,0 222,596,315,683,0 404,625,521,723,0 522,731,624,828,0
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/401.jpg
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/488.jpg
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/501.jpg
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/514.jpg 468,634,608,781,0
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/559.jpg
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/891.jpg 440,115,577,237,0
+C:/Users/Yihang/kerasyolo3master_orig/VOCdevkit/VOC2007/JPEGImages/989.jpg 1,208,47,277,0
