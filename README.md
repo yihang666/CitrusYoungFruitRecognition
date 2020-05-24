@@ -13,14 +13,15 @@
 
 
 ##文档内容
-- [DataAugmentation](#DataAugmentation)
-- [TrainModel](#TrainModel)
-- [TestModel](#TestModel)
-- [ServerDeployment](#ServerDeployment)
-- [AndroidAPPDev](#AndroidAPPDev)
+- [DataAugmentation数据增强](#DataAugmentation)
+- [TrainModel模型训练](#TrainModel)
+- [TestModel模型性能检测](#TestModel)
+- [ServerDeployment服务器部署](#ServerDeployment)
+- [AndroidAPPDev安卓端应用开发](#AndroidAPPDev)
 
 
-##DataAugmentation
+##DataAugmentation数据增强
+
 rename.bat为批处理文件名工具，快速把文件名改为数字序列（1，2，3，4.........）
 
 数据增强调用 zju_orange_research目录下data_augmentation.py
@@ -32,11 +33,11 @@ rename.bat为批处理文件名工具，快速把文件名改为数字序列（1
 
 增强后图片数据集链接：https://drive.google.com/open?id=1YIJSKqzqndr7K5jkev7ojygL1JJOsPG-
 
-##TrainModel
+##TrainModel模型训练
 
 训练模型请参考zju_orange_research目录下readme，使用train.py(是否进行迁移学习请自选)
 
-##TestModel
+##TestModel模型性能检测
  首先，我们需要将mAP-master/data中的xml格式标注(VOC 2007)转换成本代码所需txt格式，转换由mAP-master/scripts/extra/convert_keras-yolo3.py完成
 （我们在下面提供转换后的数据，直接下载input文件夹中的三个数据即可）
 如需mAP-master/data原始格式数据来自行尝试转换，链接如下：
@@ -57,7 +58,7 @@ https://drive.google.com/open?id=1OCVC6MvoaBAaGPhQ9eTcUOEvB7BrlTvK
 所有的输出图片压缩包链接如下
 https://drive.google.com/open?id=1Vzeqe6vRgTY6NDR4j-qdXKhnh6a-icPW
 
-##ServerDeployment
+##ServerDeployment服务器部署
 
 推荐使用bt面板将，将zju_orange_reasearch_online部署于云服务器上
 
