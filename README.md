@@ -6,8 +6,8 @@
 </p>
 
 
-<p>
-  <img src="http://www.tlquant.com/wp-content/uploads/2020/05/111111.png" height="300" />
+<p align="center">
+  <img src="http://www.tlquant.com/wp-content/uploads/2020/05/111111.png" width="450" height="300" />
 </p>
 
 
