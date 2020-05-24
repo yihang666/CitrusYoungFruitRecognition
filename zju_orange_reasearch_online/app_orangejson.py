@@ -1,10 +1,3 @@
-# @Author: Dwivedi Chandan
-# @Date:   2019-08-05T13:35:05+05:30
-# @Email:  chandandwivedi795@gmail.com
-# @Last modified by:   Dwivedi Chandan
-# @Last modified time: 2019-08-07T11:52:45+05:30
-
-
 # import the necessary packages
 import numpy as np
 from werkzeug.utils import secure_filename
@@ -131,6 +124,6 @@ def main():
 
     # start flask app
 if __name__ == '__main__':
-    app.run(debug=True)
-    #app.run(debug=True, host='0.0.0.0', port=3389)
+    #app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=3389)
     #app.run(debug=True)
