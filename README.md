@@ -22,8 +22,18 @@
 ##DataAugmentation
 rename.bat为批处理文件名工具，快速把文件名改为数字序列（1，2，3，4.........）
 
+数据增强调用 zju_orange_research目录下data_augmentation.py
+
+增强后数据存储于zju_orange_research/VOCdevkit/VOC2007文件夹
+下载训练用数据集也存放在该目录下
+
+增强后标签链接：https://drive.google.com/open?id=1MqXM2WxCj5EYGiRo4IKwD2zc7cEGL71L
+
+增强后图片数据集链接：https://drive.google.com/open?id=1YIJSKqzqndr7K5jkev7ojygL1JJOsPG-
 
 ##TrainModel
+
+训练模型请参考zju_orange_research目录下readme，使用train.py(是否进行迁移学习请自选)
 
 ##TestModel
  首先，我们需要将mAP-master/data中的xml格式标注(VOC 2007)转换成本代码所需txt格式，转换由mAP-master/scripts/extra/convert_keras-yolo3.py完成
@@ -48,4 +58,11 @@ https://drive.google.com/open?id=1Vzeqe6vRgTY6NDR4j-qdXKhnh6a-icPW
 
 ##ServerDeployment
 
+推荐使用bt面板将，将zju_orange_reasearch_online部署于云服务器上
+
 ##AndroidAPPDev
+安卓APP源代码地址见
+https://github.com/yihang666/orange_detection_android
+
+安卓应用程序直接下载地址见
+http://www.tlquant.com/index.php/2020/05/07/%e6%9f%91%e6%a9%98%e5%b9%bc%e6%9e%9c%e8%af%86%e5%88%abapp%e4%b8%8b%e8%bd%bd%e9%93%be%e6%8e%a5/
