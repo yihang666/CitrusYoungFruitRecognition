@@ -18,7 +18,10 @@
 - [ServerDeployment](#ServerDeployment)
 - [AndroidAPPDev](#AndroidAPPDev)
 
+
 ##DataAugmentation
+rename.bat为批处理文件名工具，快速把文件名改为数字序列（1，2，3，4.........）
+
 
 ##TrainModel
 
