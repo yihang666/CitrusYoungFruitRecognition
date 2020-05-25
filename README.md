@@ -6,9 +6,11 @@
 </p>
 
 
-##原始数据集下载地址：https://drive.google.com/open?id=1z5tWi7K0Yn0gQoPjWTSrZ1aD7GGkR4c2
+## 原始数据集下载地址：
+https://drive.google.com/open?id=1z5tWi7K0Yn0gQoPjWTSrZ1aD7GGkR4c2
 
-##训练完成后模型的地址：https://drive.google.com/open?id=140xKM3wFzK-rAlQ8lfK9OZ9sqhavwfLk
+## 训练完成后模型的地址：
+https://drive.google.com/open?id=140xKM3wFzK-rAlQ8lfK9OZ9sqhavwfLk
 
 
 
@@ -36,9 +38,13 @@ rename.bat为批处理文件名工具，快速把文件名改为数字序列（1
 
 ## TrainModel模型训练
 
-训练模型请参考zju_orange_research目录下readme，使用train.py(是否进行迁移学习请自选)
+
+YOLOv3的网络架构详情见zju_orange_research/yolov3.cfg配置文件
+
+训练模型请参考zju_orange_research目录下readme，使用train.py(是否进行迁移学习请自选)，训练时超参数的设置也在train.py文件中
 
 默认的训练为迁移学习原模型50epoch，再解开所有隐藏层训练50epoch，解开所有隐藏层时请注意显卡的显存是否溢出，及时减小batch_size
+
 
 ## TestModel模型性能检测
  首先，我们需要将mAP-master/data中的xml格式标注(VOC 2007)转换成本代码所需txt格式，转换由mAP-master/scripts/extra/convert_keras-yolo3.py完成
