@@ -38,6 +38,8 @@ rename.bat为批处理文件名工具，快速把文件名改为数字序列（1
 
 训练模型请参考zju_orange_research目录下readme，使用train.py(是否进行迁移学习请自选)
 
+默认的训练为迁移学习原模型50epoch，再解开所有隐藏层训练50epoch，解开所有隐藏层时请注意显卡的显存是否溢出，及时减小batch_size
+
 ## TestModel模型性能检测
  首先，我们需要将mAP-master/data中的xml格式标注(VOC 2007)转换成本代码所需txt格式，转换由mAP-master/scripts/extra/convert_keras-yolo3.py完成
 （我们在下面提供转换后的数据，直接下载input文件夹中的三个数据即可）
@@ -74,4 +76,7 @@ http://www.tlquant.com/index.php/2020/05/07/%e6%9f%91%e6%a9%98%e5%b9%bc%e6%9e%9c
 
 ## 备注
 环境搭建时注意不要使用tensorflow2
+
+## Author:
+* **Yihang Zhu**
 
