@@ -62,6 +62,8 @@ https://drive.google.com/open?id=1Vzeqe6vRgTY6NDR4j-qdXKhnh6a-icPW
 
 推荐使用bt面板将，将zju_orange_reasearch_online部署于云服务器上
 
+服务器上不间断运行app_orangejson.py即可
+
 ##AndroidAPPDev
 安卓APP源代码地址见
 https://github.com/yihang666/orange_detection_android
