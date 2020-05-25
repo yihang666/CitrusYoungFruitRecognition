@@ -6,6 +6,17 @@
 
 A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [allanzelener/YAD2K](https://github.com/allanzelener/YAD2K).
 
+相较于原文，我们内部的yolo架构已做过相应的调整。
+
+修改参数文件 yolov3.cfg 
+
+配置文件中搜索yolo, 总共会搜出3个含有yolo的地方。
+每个地方都必须要改2处， filters：3*（5+len（classes））；
+其中：classes: len(classes) = 1
+这里以单个类orange为例，为本文的实际使用架构
+filters = 18
+classes = 1
+
 
 ---
 
